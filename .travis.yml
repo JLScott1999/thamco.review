@@ -1,0 +1,18 @@
+language: csharp
+dotnet: 5.0.101
+mono: none
+dist: bionic
+sudo: required
+branches:
+  only:
+    - master
+    - develop
+before_script:
+  - chmod -R a+x .scripts
+install:
+  - dotnet restore
+script:
+  - dotnet build
+  - dotnet test
+after_success:
+  - ./.scripts/dotnet-publish.sh
