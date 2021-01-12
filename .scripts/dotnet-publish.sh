@@ -1,13 +1,10 @@
-DOCKER_ENV=''
 DOCKER_TAG=''
 
 case "$TRAVIS_BRANCH" in
   "main")
-    DOCKER_ENV=Production
     DOCKER_TAG=latest
     ;;
   "develop")
-    DOCKER_ENV=Development
     DOCKER_TAG=dev
     ;;    
 esac

@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThAmCo.Review", "ThAmCo.Review\ThAmCo.Review.csproj", "{BBD396CE-0FA7-4E90-B2D6-DF50D255D64F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThAmCo.Review", "ThAmCo.Review\ThAmCo.Review.csproj", "{BBD396CE-0FA7-4E90-B2D6-DF50D255D64F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{69F828FB-6781-408D-A5B1-B1E7B1C5BEDA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
