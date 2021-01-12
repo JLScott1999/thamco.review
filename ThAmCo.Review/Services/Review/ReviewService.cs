@@ -21,5 +21,7 @@ namespace ThAmCo.Review.Services.Review
             return this.reviewRepository.GetProductReviews(id);
         }
 
+        public bool SubmitProductReview(ProductReviewModel productReview) => throw new NotImplementedException();
+
     }
 }

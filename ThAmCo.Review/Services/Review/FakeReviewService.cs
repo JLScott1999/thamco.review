@@ -41,6 +41,11 @@ namespace ThAmCo.Review.Services.Review
 
         public IEnumerable<ProductReviewModel> GetProductReviews(Guid id) => this.productReviewData.Where(p => p.ProductId.Equals(id));
 
+        public bool SubmitProductReview(ProductReviewModel productReview)
+        {
+            this.productReviewData.Add(productReview);
+            return true;
+        }
 
     }
 }

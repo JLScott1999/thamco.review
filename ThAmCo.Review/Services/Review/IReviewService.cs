@@ -11,5 +11,7 @@ namespace ThAmCo.Review.Services.Review
 
         public IEnumerable<ProductReviewModel> GetProductReviews(Guid id);
 
+        public bool SubmitProductReview(ProductReviewModel productReview);
+
     }
 }
